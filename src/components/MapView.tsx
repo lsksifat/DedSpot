@@ -51,7 +51,7 @@ export default function MapView({ spots, userLoc, selectedId, onSelectAction }: 
         style: OSM_STYLE as any,
         center: userLoc ? [userLoc.lng, userLoc.lat] : BD_CENTER,
         zoom: userLoc ? 13 : 6.3,
-        attributionControl: true,
+        attributionControl: { compact: true },
       });
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
       map.on('load', () => !cancelled && setReady(true));
