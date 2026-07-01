@@ -1,0 +1,89 @@
+{
+  "_note": "SAMPLE / illustrative development data only. Not verified. Real data comes from the OSM ingest (npm run db:ingest) and verified community submissions. Safe to delete once real data is loaded.",
+  "spots": [
+    {
+      "name": "Dhanmondi Lake Public WiFi Zone", "category": "park",
+      "lat": 23.7461, "lng": 90.3742, "area": "Dhanmondi", "city": "Dhaka", "district": "Dhaka",
+      "is_free": true, "access_type": "open", "owner_type": "public", "why_free": "City corporation public WiFi",
+      "has_power": false, "has_seating": true, "is_quiet": false, "hours": "06:00-22:00",
+      "lighting": "good", "crowd_level": "busy", "has_cctv": true, "staff_present": false, "family_friendly": true,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "Shahbagh Central Library", "category": "library",
+      "lat": 23.7389, "lng": 90.3958, "area": "Shahbagh", "city": "Dhaka", "district": "Dhaka",
+      "is_free": true, "access_type": "login", "owner_type": "public", "why_free": "Public reading room WiFi",
+      "has_power": true, "has_seating": true, "is_quiet": true, "hours": "09:00-20:00",
+      "lighting": "good", "crowd_level": "moderate", "has_cctv": true, "staff_present": true, "family_friendly": true,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "Gulshan 1 Coworking Lounge", "category": "coworking",
+      "lat": 23.7925, "lng": 90.4078, "area": "Gulshan", "city": "Dhaka", "district": "Dhaka",
+      "is_free": true, "access_type": "password", "password_is_public": true, "wifi_password": "guest-welcome",
+      "owner_type": "business", "why_free": "Free for café customers",
+      "has_power": true, "has_seating": true, "is_quiet": true, "hours": "08:00-23:00",
+      "lighting": "good", "crowd_level": "moderate", "has_cctv": true, "staff_present": true, "family_friendly": true,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "Uttara Sector 7 Café Corner", "category": "cafe",
+      "lat": 23.8759, "lng": 90.3795, "area": "Uttara", "city": "Dhaka", "district": "Dhaka",
+      "is_free": true, "access_type": "password", "password_is_public": true, "wifi_password": "coffee123",
+      "owner_type": "business", "why_free": "Customer WiFi",
+      "has_power": true, "has_seating": true, "is_quiet": false, "hours": "10:00-23:30",
+      "lighting": "moderate", "crowd_level": "busy", "has_cctv": false, "staff_present": true, "family_friendly": false,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "Mirpur 10 Metro Station Hotspot", "category": "transport",
+      "lat": 23.8069, "lng": 90.3687, "area": "Mirpur", "city": "Dhaka", "district": "Dhaka",
+      "is_free": true, "access_type": "open", "owner_type": "public", "why_free": "Metro rail public WiFi",
+      "has_power": false, "has_seating": false, "is_quiet": false, "hours": "06:00-22:00",
+      "lighting": "good", "crowd_level": "busy", "has_cctv": true, "staff_present": true, "family_friendly": true,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "GEC Circle Study Café", "category": "cafe",
+      "lat": 22.3597, "lng": 91.8214, "area": "GEC", "city": "Chattogram", "district": "Chattogram",
+      "is_free": true, "access_type": "password", "password_is_public": true, "wifi_password": "study2024",
+      "owner_type": "business", "why_free": "Free for students",
+      "has_power": true, "has_seating": true, "is_quiet": true, "hours": "09:00-22:00",
+      "lighting": "good", "crowd_level": "moderate", "has_cctv": true, "staff_present": true, "family_friendly": true,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "Zindabazar City Point", "category": "mall",
+      "lat": 24.8949, "lng": 91.8687, "area": "Zindabazar", "city": "Sylhet", "district": "Sylhet",
+      "is_free": true, "access_type": "open", "owner_type": "business", "why_free": "Mall visitor WiFi",
+      "has_power": false, "has_seating": true, "is_quiet": false, "hours": "10:00-21:00",
+      "lighting": "good", "crowd_level": "busy", "has_cctv": true, "staff_present": true, "family_friendly": true,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "Rajshahi University Central Field", "category": "university",
+      "lat": 24.3745, "lng": 88.6042, "area": "Motihar", "city": "Rajshahi", "district": "Rajshahi",
+      "is_free": true, "access_type": "login", "owner_type": "educational", "why_free": "Campus WiFi (students)",
+      "has_power": false, "has_seating": true, "is_quiet": true, "hours": "24/7",
+      "lighting": "moderate", "crowd_level": "quiet", "has_cctv": false, "staff_present": false, "family_friendly": false,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "Khulna Shibbari More Hub", "category": "cafe",
+      "lat": 22.8456, "lng": 89.5403, "area": "Shibbari", "city": "Khulna", "district": "Khulna",
+      "is_free": true, "access_type": "password", "password_is_public": true, "wifi_password": "welcome",
+      "owner_type": "business", "why_free": "Customer WiFi",
+      "has_power": true, "has_seating": true, "is_quiet": false, "hours": "11:00-23:00",
+      "lighting": "moderate", "crowd_level": "moderate", "has_cctv": false, "staff_present": true, "family_friendly": false,
+      "status": "approved", "verified": false
+    },
+    {
+      "name": "Cox's Bazar Beach Info Center", "category": "government",
+      "lat": 21.4272, "lng": 91.9700, "area": "Kolatoli", "city": "Cox's Bazar", "district": "Cox's Bazar",
+      "is_free": true, "access_type": "open", "owner_type": "public", "why_free": "Tourism board free WiFi",
+      "has_power": false, "has_seating": true, "is_quiet": false, "hours": "08:00-20:00",
+      "lighting": "good", "crowd_level": "busy", "has_cctv": true, "staff_present": true, "family_friendly": true,
+      "status": "approved", "verified": false
+    }
+  ]
+}

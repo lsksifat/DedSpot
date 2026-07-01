@@ -1,0 +1,21 @@
+# Local PostgreSQL + PostGIS for DedSpot.
+# Start with:  docker compose up -d
+# Then run:    npm run db:migrate && npm run db:seed
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: dedspot-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: dedspot
+      POSTGRES_PASSWORD: dedspot_dev_pw
+      POSTGRES_DB: dedspot
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dedspot -d dedspot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
